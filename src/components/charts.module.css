@@ -1,0 +1,20 @@
+.filter {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #636363;
+  padding: 0.5rem 2rem;
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+}
+
+.select {
+  padding: 0.5rem 2rem;
+  background: transparent;
+  color: white;
+}
+
+.select option {
+  background: transparent;
+  color: #636363;
+}

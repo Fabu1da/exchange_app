@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-family: "Poppins", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.outPut {
+  border: 1px solid #402a2a;
+  width: 85%;
+  padding: 1rem;
+}
+.outPut p.RecievedAmount {
+  font-size: 28px;
+  color: white;
+  font-weight: 600;
+}
+.rate {
+  font-size: 15px;
+  color: #85a796;
+  margin-top: -2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.leftSide {
+  width: 30%;
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 3rem;
+}
+.rightSide {
+  flex: 1;
+}
+.leftSide img {
+  width: 40%;
+}
+.textLarge {
   color: white;
+  font-size: 22px;
+  font-weight: 600;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App {
+  display: flex;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(19, 39, 42, 1) 48%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 3rem;
 }
